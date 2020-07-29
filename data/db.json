@@ -1,3 +1,14 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "title": "New Note",
+      "text": "New Note Text",
+      "id": "0"
+    },
+    {
+      "title": "New Note 2",
+      "text": "New Note 2 Contents",
+      "id": "1"
+    }
+  ]
 }
