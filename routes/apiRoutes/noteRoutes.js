@@ -11,7 +11,10 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res)=>{
-    req.body.id = notes.length.toString();
+
+    let highestID = notes[notes.length-1].id;
+
+    req.body.id = (parseInt(highestID) + 1).toString();
 
     const note = createNewNote(req.body, notes);
     res.json(note);
@@ -20,10 +23,15 @@ router.post('/notes', (req, res)=>{
 
 router.delete('/notes/:id', (req, res) => {
 
+    let results = notes;
+
     const index = findIndexById(req.params.id, notes);
 
-    if (index){
-        deleteNote(index,notes) 
+    //console.log('delete called on index: ',index);
+
+    if (index || index == '0'){
+        deleteNote(index,notes);
+        res.json(results);
     } else {
         res.sendStatus(404);
     }

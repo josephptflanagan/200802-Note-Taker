@@ -1,14 +1,54 @@
 {
   "notes": [
     {
-      "title": "New Note",
-      "text": "New Note Text",
+      "title": "Kill Master Windu",
+      "text": "I've always been envious of that purple light saber, would be cool if I could get rid of that in the process",
       "id": "0"
     },
     {
-      "title": "New Note 2",
-      "text": "New Note 2 Contents",
+      "title": "Submit to Darth Sidious",
+      "text": "Weird how close that name is to insidious.",
       "id": "1"
+    },
+    {
+      "title": "Cleanse the Temple",
+      "text": "Too many damn younglings... there's probably something I could do about that.",
+      "id": "2"
+    },
+    {
+      "title": "Go to Mustafar",
+      "text": "Some, like me, like it hot.",
+      "id": "3"
+    },
+    {
+      "title": "Strangle Padme",
+      "text": "Oops",
+      "id": "4"
+    },
+    {
+      "title": "Fight Best Friend",
+      "text": "Because I hate him",
+      "id": "5"
+    },
+    {
+      "title": "Burn Limbs off",
+      "text": "Enough with the rest of the fleshy ones, my robot one is the best!",
+      "id": "6"
+    },
+    {
+      "title": "Get Bitch'n New Suit",
+      "text": "'Cause black is where it's at!",
+      "id": "7"
+    },
+    {
+      "title": "Build Death Star",
+      "text": "For my new Empire.",
+      "id": "8"
+    },
+    {
+      "title": "Eradicate Resistance",
+      "text": "My way or the highway (but really just my way)",
+      "id": "9"
     }
   ]
 }
