@@ -1,5 +1,5 @@
 const apiRoutes = require('./routes/apiRoutes');
-//const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 const express = require('express');
 
 const PORT = process.env.PORT || 3001;
@@ -16,7 +16,7 @@ app.use(express.json());
 app.use('/api', apiRoutes);
 
 // server uses /api to access htmlroutes
-//app.use('/', htmlRoutes);
+app.use('/', htmlRoutes);
 
 // server allows for use of files stored in public without explicit routes
 app.use(express.static('public'));
