@@ -2,8 +2,10 @@ const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 const express = require('express');
 
+//creates the server port reservation variable
 const PORT = process.env.PORT || 3001;
 
+//creates the server
 const app = express();
 
 // parse incoming string or array data
