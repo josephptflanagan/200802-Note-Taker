@@ -4,7 +4,7 @@
 Server based application to take notes to organize the though process and keep on track.
 
 ## Heroku Link
-https://radiant-stream-14965.herokuapp.com/
+[Heroku Site](https://radiant-stream-14965.herokuapp.com/)
 
 ### Description of Development
 This project connected provided front end code to back end code that I created using Node.js and Express.js. I used jest to perform TDD, and then posted the result to Heroku.
